@@ -1,52 +1,149 @@
 {
-    "participants" : [{
-        "pid" : "1",
-        "service_id": "1",
-        "schema_id": "CWC2eWkYxrFN73fSNjNFpd:2:CertificateOfDataScientist:1.0",
-        "use_now": "Y"
-    }, {
-        "pid" : "2",
-        "service_id": "1",
-        "schema_id": "CWC2eWkYxrFN73fSNjNFpd:2:CertificateOfDataScientist:1.0",
-        "use_now": "Y"
-    }],
-    "services" : [
+    "attributes": [
         {
-            "id": "1",
-            "service_available_yn": "Y",
-            "category": "0003",
-            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_datascience@3x_A_20210906150937_A_20210930161042.png",
-            "reg_date": "20210101",
-            "service_eng_name": "CertificateOfDataScientist",
-            "service_kor_name": "ProDS 자격증"
-        }, {
-            "id": "2",
-            "service_available_yn": "Y",
-            "category": "0003",
-            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_graduation_A_20210917141852.png",
-            "reg_date": "20210101",
-            "service_eng_name": "UniCertificateOfGraduationKor",
-            "service_kor_name": "대학교 졸업증명서"
-        }, {
-            "id": "3",
-            "service_available_yn": "Y",
-            "category": "0001",
-            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_id_A_20210917142121.png",
-            "reg_date": "20220101"
+            "attr_eng_name": "campus_location",
+            "attr_kor_name": "캠퍼스",
+            "attr_type": "99",
+            "attr_qr_yn": "N",
+            "attr_align": "00",
+            "attr_properties": [
+                "01"
+            ]
         },
         {
-            "id": "4",
-            "service_available_yn": "N",
-            "category": "0001",
-            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_access_A_20210917142300.png",
-            "reg_date": "20220111"
-        }, {
-            "id": "5",
-            "service_available_yn": "Y",
-            "category": "0002",
-            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_repair_A_20210917141812.png",
-            "reg_date": "20220101"
+            "attr_eng_name": "college",
+            "attr_kor_name": "대학",
+            "attr_type": "01",
+            "attr_order_num": "1",
+            "attr_qr_yn": "N",
+            "attr_align": "01",
+            "attr_properties": [
+                "01",
+                "02"
+            ]
+        },
+        {
+            "attr_eng_name": "department",
+            "attr_kor_name": "학과",
+            "attr_type": "01",
+            "attr_order_num": "2",
+            "attr_qr_yn": "N",
+            "attr_align": "01",
+            "attr_properties": [
+                "01",
+                "02"
+            ]
+        },
+        {
+            "attr_eng_name": "description",
+            "attr_kor_name": "설명",
+            "attr_type": "99",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "id_type",
+            "attr_kor_name": "신분증명",
+            "attr_type": "99",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "issue_date",
+            "attr_kor_name": "발급일",
+            "attr_type": "99",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "name",
+            "attr_kor_name": "성명",
+            "attr_type": "00",
+            "attr_order_num": "1",
+            "attr_qr_yn": "N",
+            "attr_align": "01",
+            "attr_properties": [
+                "01",
+                "02"
+            ]
+        },
+        {
+            "attr_eng_name": "photo",
+            "attr_kor_name": "사진",
+            "attr_type": "04",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "registered_status",
+            "attr_kor_name": "학적상태",
+            "attr_type": "99",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "school",
+            "attr_kor_name": "학부",
+            "attr_type": "02",
+            "attr_order_num": "1",
+            "attr_qr_yn": "N",
+            "attr_align": "01",
+            "attr_properties": [
+                "01",
+                "02"
+            ]
+        },
+        {
+            "attr_eng_name": "status",
+            "attr_kor_name": "신분",
+            "attr_type": "02",
+            "attr_order_num": "2",
+            "attr_qr_yn": "N",
+            "attr_align": "01",
+            "attr_properties": [
+                "01",
+                "02"
+            ]
+        },
+        {
+            "attr_eng_name": "student_id",
+            "attr_kor_name": "학번",
+            "attr_type": "00",
+            "attr_order_num": "2",
+            "attr_qr_yn": "Y",
+            "attr_align": "01",
+            "attr_properties": [
+                "01",
+                "02"
+            ]
+        },
+        {
+            "attr_eng_name": "university",
+            "attr_kor_name": "대학교",
+            "attr_type": "03",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "__initial_card_number__",
+            "attr_kor_name": "출입키",
+            "attr_type": "99",
+            "attr_qr_yn": "Y",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "__initial_degree__",
+            "attr_kor_name": "발급차수",
+            "attr_type": "99",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
+        },
+        {
+            "attr_eng_name": "__initial_key_vendor__",
+            "attr_kor_name": "보안회사",
+            "attr_type": "99",
+            "attr_qr_yn": "N",
+            "attr_align": "00"
         }
     ]
-
 }
