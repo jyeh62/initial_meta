@@ -37,9 +37,6 @@
             "reg_date": "20220101"
         } 
     ],
-    "participants" : [{            
-            "id" : "1",   
-        }
-    ]
+    "participants" : "yes"
 }
     
