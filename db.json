@@ -37,7 +37,73 @@
             "reg_date": "20220101"
         } 
     ],
-    "participants" : [
+    "participants" : [{            
+            "id" : "1",   
+            "service_id": "1",
+            "schema_id": "CWC2eWkYxrFN73fSNjNFpd:2:CertificateOfDataScientist:1.0",
+            "cred_def_id": "TwTmHugwzxLFL1gSrNyRbV:3:CL:1629437987:c9808f64-3daa-489d-99a6-eb0c99458c78",
+            "did_auth_challenge": "https://if.multicampus.com/invitation-url",
+            "did_type": "0",
+            "participants_kor_name": "멀티캠퍼스 ProDS",
+            "participants_eng_name": "멀티캠퍼스 ProDS",
+            "participants_rest_api_url": "https://if.multicampus.com",
+            "participants_category": "0",
+            "i_1x_img_url": "https://api.myinitial.io/ssw/image/2021/09/30/20210930162719MIX1.png",
+            "i_2x_img_url": "https://api.myinitial.io/ssw/image/2021/09/30/20210930162719MIX2.png",
+            "i_3x_img_url": "https://api.myinitial.io/ssw/image/2021/09/30/20210930162719MIX3.png",
+            "public_did": "did:ssw:TwTmHugwzxLFL1gSrNyRbV",
+            "participants_view_yn": "Y",
+            "schema_ver": "1.0",
+            "cloud_use_yn": "Y",
+            "role" : "issuer",
+            "use_now": "Y",
+            "attributes": [
+                {
+                    "attr_eng_name": "eval_qulf_no",
+                    "attr_kor_name": "평가자격번호"
+                },
+                {
+                    "attr_eng_name": "mbr_brtdt",
+                    "attr_kor_name": "생년월일"
+                },
+                {
+                    "attr_eng_name": "mbr_fnm",
+                    "attr_kor_name": "회원명"
+                },
+                {
+                    "attr_eng_name": "mend_edu_dtm",
+                    "attr_kor_name": "보수교육일시"
+                },
+                {
+                    "attr_eng_name": "psexm_anuc_dtm",
+                    "attr_kor_name": "합격공지일시"
+                },
+                {
+                    "attr_eng_name": "qulfd_issno",
+                    "attr_kor_name": "자격증발급번호"
+                },
+                {
+                    "attr_eng_name": "qulf_avl_dtm",
+                    "attr_kor_name": "자격유효일시"
+                },
+                {
+                    "attr_eng_name": "qulf_eval_grd_nm",
+                    "attr_kor_name": "자격평가등급"
+                },
+                {
+                    "attr_eng_name": "qulf_eval_nm",
+                    "attr_kor_name": "자격평가"
+                },
+                {
+                    "attr_eng_name": "renw_reg_dtm",
+                    "attr_kor_name": "갱신등록일시"
+                },
+                {
+                    "attr_eng_name": "today",
+                    "attr_kor_name": "발급일시"
+                }
+            ]
+        }
     ]
 }
     
