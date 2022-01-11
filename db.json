@@ -37,6 +37,10 @@
             "reg_date": "20220101"
         } 
     ],
-    "participants" : "yes"
+    "participants" : {
+        "isValid":false,
+        "code":"Unauthorization",
+        "message":"Websocket time out"
+    }
 }
     
