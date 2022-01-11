@@ -1,10 +1,15 @@
 {
-    "participants" : {
+    "participants" : [{
         "pid" : "1",   
         "service_id": "1",
         "schema_id": "CWC2eWkYxrFN73fSNjNFpd:2:CertificateOfDataScientist:1.0",
         "use_now": "Y"
-    },
+    }, {
+        "pid" : "2",   
+        "service_id": "1",
+        "schema_id": "CWC2eWkYxrFN73fSNjNFpd:2:CertificateOfDataScientist:1.0",
+        "use_now": "Y"
+    }],
     "services" : [
         {
             "id": "1",
