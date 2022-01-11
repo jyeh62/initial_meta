@@ -56,53 +56,7 @@
             "schema_ver": "1.0",
             "cloud_use_yn": "Y",
             "role" : "issuer",
-            "use_now": "Y",
-            "attributes": [
-                {
-                    "attr_eng_name": "eval_qulf_no",
-                    "attr_kor_name": "평가자격번호"
-                },
-                {
-                    "attr_eng_name": "mbr_brtdt",
-                    "attr_kor_name": "생년월일"
-                },
-                {
-                    "attr_eng_name": "mbr_fnm",
-                    "attr_kor_name": "회원명"
-                },
-                {
-                    "attr_eng_name": "mend_edu_dtm",
-                    "attr_kor_name": "보수교육일시"
-                },
-                {
-                    "attr_eng_name": "psexm_anuc_dtm",
-                    "attr_kor_name": "합격공지일시"
-                },
-                {
-                    "attr_eng_name": "qulfd_issno",
-                    "attr_kor_name": "자격증발급번호"
-                },
-                {
-                    "attr_eng_name": "qulf_avl_dtm",
-                    "attr_kor_name": "자격유효일시"
-                },
-                {
-                    "attr_eng_name": "qulf_eval_grd_nm",
-                    "attr_kor_name": "자격평가등급"
-                },
-                {
-                    "attr_eng_name": "qulf_eval_nm",
-                    "attr_kor_name": "자격평가"
-                },
-                {
-                    "attr_eng_name": "renw_reg_dtm",
-                    "attr_kor_name": "갱신등록일시"
-                },
-                {
-                    "attr_eng_name": "today",
-                    "attr_kor_name": "발급일시"
-                }
-            ]
+            "use_now": "Y"
         }
     ]
 }
