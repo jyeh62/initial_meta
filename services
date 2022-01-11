@@ -1,0 +1,38 @@
+{
+    "services" : [
+        {
+            "id": "1",
+            "service_available_yn": "Y",
+            "category": "0003",
+            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_datascience@3x_A_20210906150937_A_20210930161042.png",
+            "reg_date": "20210101"
+        }, {
+            "id": "2",
+            "service_available_yn": "Y",
+            "category": "0003",
+            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_graduation_A_20210917141852.png",
+            "reg_date": "20210101"
+        }, {
+            "id": "3",
+            "service_available_yn": "Y",
+            "category": "0001",
+            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_id_A_20210917142121.png",
+            "reg_date": "20220101"
+        }, 
+        {
+            "id": "4",
+            "shortcut_service_available_yn": "N",
+            "category": "0001",
+            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_access_A_20210917142300.png",
+            "reg_date": "20220111"
+        }, {
+            "id": "5",
+            "service_available_yn": "Y",
+            "category": "0002",
+            "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_repair_A_20210917141812.png",
+            "reg_date": "20220101"
+        } 
+        
+    ]
+}
+   
