@@ -22,7 +22,7 @@
             "category": "0001",
             "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_id_A_20210917142121.png",
             "reg_date": "20220101"
-        }, 
+        },
         {
             "id": "4",
             "service_available_yn": "N",
@@ -35,12 +35,12 @@
             "category": "0002",
             "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_repair_A_20210917141812.png",
             "reg_date": "20220101"
-        } 
-        
+        }
+
     ],
     "participants" : [
-        {            
-            "id" : "1",   
+        {
+            "id" : "1",
             "service_id": "1",
             "schema_id": "CWC2eWkYxrFN73fSNjNFpd:2:CertificateOfDataScientist:1.0",
             "cred_def_id": "TwTmHugwzxLFL1gSrNyRbV:3:CL:1629437987:c9808f64-3daa-489d-99a6-eb0c99458c78",
@@ -58,56 +58,11 @@
             "schema_ver": "1.0",
             "cloud_use_yn": "Y",
             "role" : "issuer",
-            "use_now": "Y",
-            "attributes": [
-                {
-                    "attr_eng_name": "eval_qulf_no",
-                    "attr_kor_name": "평가자격번호"
-                },
-                {
-                    "attr_eng_name": "mbr_brtdt",
-                    "attr_kor_name": "생년월일"
-                },
-                {
-                    "attr_eng_name": "mbr_fnm",
-                    "attr_kor_name": "회원명"
-                },
-                {
-                    "attr_eng_name": "mend_edu_dtm",
-                    "attr_kor_name": "보수교육일시"
-                },
-                {
-                    "attr_eng_name": "psexm_anuc_dtm",
-                    "attr_kor_name": "합격공지일시"
-                },
-                {
-                    "attr_eng_name": "qulfd_issno",
-                    "attr_kor_name": "자격증발급번호"
-                },
-                {
-                    "attr_eng_name": "qulf_avl_dtm",
-                    "attr_kor_name": "자격유효일시"
-                },
-                {
-                    "attr_eng_name": "qulf_eval_grd_nm",
-                    "attr_kor_name": "자격평가등급"
-                },
-                {
-                    "attr_eng_name": "qulf_eval_nm",
-                    "attr_kor_name": "자격평가"
-                },
-                {
-                    "attr_eng_name": "renw_reg_dtm",
-                    "attr_kor_name": "갱신등록일시"
-                },
-                {
-                    "attr_eng_name": "today",
-                    "attr_kor_name": "발급일시"
-                }
-            ]
+            "use_now": "Y"
+
         },
         {
-            "id" : "2",   
+            "id" : "2",
             "service_id": "2",
             "schema_id": "Tqs8emEv7NTLrLkW8eVp9f:2:UniCertificateOfGraduationKor:1.0",
             "cred_def_id": "QjuxXDs69RLKbSsCccehnQ:3:CL:1605675654:UniCertificateOfGraduationKorRev",
@@ -123,80 +78,11 @@
             "participants_view_yn": "Y",
             "schema_ver": "1.0",
             "cloud_use_yn": "N",
-            "use_now": "Y",
-            "attributes": [
-                {
-                    "attr_eng_name": "college",
-                    "attr_kor_name": "단과대학"
-                },
-                {
-                    "attr_eng_name": "date_of_admission",
-                    "attr_kor_name": "입학년월일"
-                },
-                {
-                    "attr_eng_name": "date_of_birth",
-                    "attr_kor_name": "생년월일"
-                },
-                {
-                    "attr_eng_name": "date_of_expiration",
-                    "attr_kor_name": "증명서만료일"
-                },
-                {
-                    "attr_eng_name": "date_of_graduation",
-                    "attr_kor_name": "졸업년월일"
-                },
-                {
-                    "attr_eng_name": "date_of_issue",
-                    "attr_kor_name": "발급일자"
-                },
-                {
-                    "attr_eng_name": "degree_name",
-                    "attr_kor_name": "학위명"
-                },
-                {
-                    "attr_eng_name": "degree_number",
-                    "attr_kor_name": "학위등록번호"
-                },
-                {
-                    "attr_eng_name": "department",
-                    "attr_kor_name": "학과"
-                },
-                {
-                    "attr_eng_name": "double_major",
-                    "attr_kor_name": "복수전공"
-                },
-                {
-                    "attr_eng_name": "identification_number",
-                    "attr_kor_name": "증명서고유번호"
-                },
-                {
-                    "attr_eng_name": "issue_number",
-                    "attr_kor_name": "발급번호(대학)"
-                },
-                {
-                    "attr_eng_name": "major",
-                    "attr_kor_name": "전공"
-                },
-                {
-                    "attr_eng_name": "minor",
-                    "attr_kor_name": "부전공"
-                },
-                {
-                    "attr_eng_name": "name",
-                    "attr_kor_name": "성명"
-                },
-                {
-                    "attr_eng_name": "student_id",
-                    "attr_kor_name": "학번"
-                },
-                {
-                    "attr_eng_name": "uni_name",
-                    "attr_kor_name": "대학명"
-                }
-            ]  
+            "use_now": "Y"
+
         },
         {
-            "id" : "3",   
+            "id" : "3",
             "service_id": "2",
             "schema_code": "000017",
             "schema_id": "CWC2eWkYxrFN73fSNjNFpd:2:UniCertificateOfGraduationKor:2.0",
@@ -214,179 +100,8 @@
             "view_yn": "Y",
             "schema_ver": "2.0",
             "cloud_use_yn": "N",
-            "use_now": "Y",
-            "attributes": [
-                {
-                    "attr_eng_name": "college",
-                    "attr_kor_name": "단과대학"
-                },
-                {
-                    "attr_eng_name": "date_of_admission",
-                    "attr_kor_name": "입학년월일"
-                },
-                {
-                    "attr_eng_name": "date_of_birth",
-                    "attr_kor_name": "생년월일"
-                },
-                {
-                    "attr_eng_name": "date_of_expiration",
-                    "attr_kor_name": "증명서만료일"
-                },
-                {
-                    "attr_eng_name": "date_of_graduation",
-                    "attr_kor_name": "졸업년월일"
-                },
-                {
-                    "attr_eng_name": "date_of_issue",
-                    "attr_kor_name": "발급일자"
-                },
-                {
-                    "attr_eng_name": "degree_name",
-                    "attr_kor_name": "학위명"
-                },
-                {
-                    "attr_eng_name": "degree_number",
-                    "attr_kor_name": "학위등록번호"
-                },
-                {
-                    "attr_eng_name": "department",
-                    "attr_kor_name": "학과"
-                },
-                {
-                    "attr_eng_name": "double_major",
-                    "attr_kor_name": "복수전공"
-                },
-                {
-                    "attr_eng_name": "identification_number",
-                    "attr_kor_name": "증명서고유번호"
-                },
-                {
-                    "attr_eng_name": "issue_number",
-                    "attr_kor_name": "발급번호(대학)"
-                },
-                {
-                    "attr_eng_name": "major",
-                    "attr_kor_name": "전공"
-                },
-                {
-                    "attr_eng_name": "minor",
-                    "attr_kor_name": "부전공"
-                },
-                {
-                    "attr_eng_name": "name",
-                    "attr_kor_name": "성명"
-                },
-                {
-                    "attr_eng_name": "student_id",
-                    "attr_kor_name": "학번"
-                },
-                {
-                    "attr_eng_name": "uni_name",
-                    "attr_kor_name": "대학명"
-                }
-            ]
-        }
-    ],
-    "sub_participants" : [
-        {
-            "participants_id" : "2",
-            "order_num": "1",
-            "sub_instt_type": "00",
-            "sub_instt_code": "7744",
-            "sub_instt_name": "가야대학교",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7744.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7744.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7744.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7744.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "2",
-            "sub_instt_type": "00",
-            "sub_instt_code": "8461",
-            "sub_instt_name": "가천대학교",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8461.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8461.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8461.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8461.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "3",
-            "sub_instt_type": "00",
-            "sub_instt_code": "7932",
-            "sub_instt_name": "가천대학교(메디컬캠퍼스)",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7932.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7932.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7932.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7932.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "4",
-            "sub_instt_type": "00",
-            "sub_instt_code": "8330",
-            "sub_instt_name": "가톨릭관동대학교",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8330.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8330.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8330.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8330.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "5",
-            "sub_instt_type": "00",
-            "sub_instt_code": "7670",
-            "sub_instt_name": "가톨릭대학교(성신교정)",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7670.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7670.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7670.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7670.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "6",
-            "sub_instt_type": "00",
-            "sub_instt_code": "8465",
-            "sub_instt_name": "가톨릭대학교(성심교정)",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8465.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8465.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8465.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8465.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "7",
-            "sub_instt_type": "00",
-            "sub_instt_code": "7669",
-            "sub_instt_name": "가톨릭대학교(성의교정)",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7669.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7669.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7669.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/7669.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "8",
-            "sub_instt_type": "00",
-            "sub_instt_code": "8475",
-            "sub_instt_name": "강남대학교",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8475.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8475.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8475.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8475.jpg"
-        },
-        {
-            "participants_id" : "2",
-            "order_num": "9",
-            "sub_instt_type": "00",
-            "sub_instt_code": "8453",
-            "sub_instt_name": "강동대학교",
-            "sub_a_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8453.jpg",
-            "sub_i_1x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8453.jpg",
-            "sub_i_2x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8453.jpg",
-            "sub_i_3x_img_url": "https://api.myinitial.io/ssw/image/subInstt/2021/05/21/8453.jpg"
-        }
+            "use_now": "Y"
 
+        }
     ]
 }
