@@ -28,13 +28,17 @@
             "service_available_yn": "N",
             "category": "0001",
             "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_access_A_20210917142300.png",
-            "reg_date": "20220111"
+            "reg_date": "20220111",
+            "schema_eng_name": "AccessCredential",
+            "schema_kor_name": "출입권한증명"
         }, {
             "id": "5",
             "service_available_yn": "Y",
             "category": "0002",
             "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_repair_A_20210917141812.png",
-            "reg_date": "20220101"
+            "reg_date": "20220101",
+            "schema_eng_name": "RepairHistoryCredential",
+            "schema_kor_name": "수리비 영수증 및 내역서"
         }
     ]
 }
