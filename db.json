@@ -21,7 +21,9 @@
             "service_available_yn": "Y",
             "category": "0001",
             "img_url": "https://api.myinitial.io/ssw/image/icon/ico_main_certificate_list_uni_id_A_20210917142121.png",
-            "reg_date": "20220101"
+            "reg_date": "20220101",
+            "schema_eng_name": "UniversityID",
+            "schema_kor_name": "대학 신분증"
         },
         {
             "id": "4",
